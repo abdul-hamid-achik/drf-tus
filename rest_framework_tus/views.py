@@ -6,7 +6,7 @@ import logging
 
 from django.http import Http404
 from django.utils import timezone
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from rest_framework import mixins, status
 from rest_framework.exceptions import MethodNotAllowed
 from rest_framework.metadata import BaseMetadata
