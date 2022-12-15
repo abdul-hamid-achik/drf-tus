@@ -45,9 +45,10 @@ readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 
 setup(
-    name='drf-tus',
+    name='sicksid-drf-tus',
     version=version,
-    description="""A Tus (tus.io) library for Django Rest Framework""",
+    description="""A Tus (tus.io) library for Django Rest Framework (copied for now from
+    original to add support for pdm and django 4.0)""",
     long_description=readme + '\n\n' + history,
     author='Dirk Moors',
     author_email='dirkmoors@gmail.com',
@@ -65,11 +66,12 @@ setup(
     ],
     license="MIT",
     zip_safe=False,
-    keywords='drf-tus',
+    keywords=['drf-tus', 'tus', 'django', 'rest', 'framework', 'django-rest-framework'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Framework :: Django',
         'Framework :: Django :: 3.0',
+        'Framework :: Django :: 4.0',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Natural Language :: English',
@@ -78,6 +80,9 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
 )
