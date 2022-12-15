@@ -51,7 +51,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Dirk Moors',
     author_email='dirkmoors@gmail.com',
-    url='https://github.com/dirkmoors/drf-tus',
+    url='https://github.com/sicksid/drf-tus.git',
     packages=[
         'rest_framework_tus',
     ],
